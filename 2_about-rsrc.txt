@@ -1,7 +1,7 @@
 
 GLEW - library that loads prebuilt extensions
 GLAD - a lightweight, optimized alternative to GLEW
-GLFW - needed for the GUI window
+GLFW - needed for the GUI window and OpenGL context
 
 OpenGL context - an object that stores:
  . the state of the window
