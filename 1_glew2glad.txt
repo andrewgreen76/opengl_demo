@@ -1,0 +1,9 @@
+"
+... many tutorials used **GLEW** or platform-provided headers instead of **GLAD** to load modern **OpenGL** function pointers.
+"
+
+
+"
+The shift happened because **GLAD** is a lightweight code generator that produces only the specific **OpenGL** function loaders you need, whereas **GLEW** is a heavier prebuilt library that loads a large set of extensions regardless of whether you use them.
+"
+_
