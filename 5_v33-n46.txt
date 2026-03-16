@@ -1,0 +1,6 @@
+
+Q: Why version 3.3 and not 4.6?
+|
+A: "Examples often target **OpenGL 3.3** because it is the oldest widely supported core-profile version across most GPUs and drivers, making the code more portable than targeting newer versions like **4.6**."
+
+_
