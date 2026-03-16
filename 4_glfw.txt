@@ -1,0 +1,4 @@
+"
+Because **GLFW** [not GLEW] creates the window and OpenGL context while **GLAD** loads the actual **OpenGL function pointers at runtime**, so together they provide both the environment and the API access needed to use OpenGL.
+"
+_
