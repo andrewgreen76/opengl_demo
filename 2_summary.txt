@@ -1,0 +1,29 @@
+
+GLEW - library that loads prebuilt extensions
+GLAD - a lightweight, optimized alternative to GLEW
+GLFW - needed for the GUI window
+
+OpenGL context - an object that stores:
+ . the state of the window
+ . OpenGL settings
+ . buffers
+ . shader code and data
+ . GPU shader function bindings
+
+
+===================================================================================
+
+"
+... many tutorials used **GLEW** or platform-provided headers instead of **GLAD** to load modern **OpenGL** function pointers.
+"
+
+
+"
+The shift happened because **GLAD** is a lightweight code generator that produces only the specific **OpenGL** function loaders you need, whereas **GLEW** is a heavier prebuilt library that loads a large set of extensions regardless of whether you use them.
+"
+
+
+"
+Because **GLFW** [not GLEW] creates the window and OpenGL context while **GLAD** loads the actual **OpenGL function pointers at runtime**, so together they provide both the environment and the API access needed to use OpenGL.
+"
+_
